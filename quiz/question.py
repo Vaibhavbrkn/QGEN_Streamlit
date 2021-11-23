@@ -17,7 +17,7 @@ class Question:
     def __init__(self, path="./s2v_reddit_2015_md/s2v_old"):
         self.tokenizer = T5Tokenizer.from_pretrained('t5-base')
         model = T5ForConditionalGeneration.from_pretrained(
-            'vaibhavbrkn/question-gen')
+            'Vaibhavbrkn/question-gen')
         # vaibhavbrkn/question-gen
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         model.to(device)
