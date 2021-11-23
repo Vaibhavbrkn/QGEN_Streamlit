@@ -1,0 +1,7 @@
+spacy
+pke-tool
+keybert
+torch
+transformers
+sense2vec
+streamlit
