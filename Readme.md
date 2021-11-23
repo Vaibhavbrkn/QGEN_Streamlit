@@ -15,11 +15,12 @@ pip install -r requirements.txt
 
 ````python
 streamlit run app.py
+```
 
 ## 🐳 DOCKER
 > App can be launched with Docker too.
 - **Pull Docker Image from Hub**
-```
+
 ```bash
 docker pull vaibhavbrkn/nlp-question
 ````
