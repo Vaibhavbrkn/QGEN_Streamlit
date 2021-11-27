@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: qgen-deploy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: qgen 
+  template:
+    metadata:
+      labels:
+        app: qgen
+    spec:
+      containers:
+      - name: qgen-deploy
+        image: vaibhavbrkn/nlp-question:latest
+        imagePullPolicy: Never

@@ -29,6 +29,12 @@ docker pull vaibhavbrkn/nlp-question
 docker run -p 8501:8501 vaibhavbrkn/nlp-question
 ```
 
+- **Run With Kubernetes**
+
+```bash
+kubectl apply -f k8s
+```
+
 ## DEMO
 
 ![Demo Image](https://github.com/Vaibhavbrkn/QGEN_Streamlit/blob/master/demo.jpg)
