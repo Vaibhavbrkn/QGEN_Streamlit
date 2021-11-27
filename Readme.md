@@ -30,12 +30,15 @@ docker pull vaibhavbrkn/nlp-question
 ```bash
 docker run -p 8501:8501 vaibhavbrkn/nlp-question
 ```
+access app on localhost:8501
 
 - **Run With Kubernetes**
 
 ```bash
 kubectl apply -f k8s
 ```
+
+access app on localhost:30501
 
 ## DEMO
 
